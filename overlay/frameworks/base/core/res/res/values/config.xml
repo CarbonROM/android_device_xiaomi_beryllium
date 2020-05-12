@@ -216,4 +216,9 @@
     <dimen name="status_bar_height_portrait">86.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
     <dimen name="rounded_corner_radius_top">104px</dimen>
+
+    <!-- Enable proximity check on screen wake -->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <integer name="config_proximityCheckTimeout">100</integer>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 </resources>
